@@ -30,7 +30,7 @@ public class Activity3_Labin {
         int num2 = 30;
         int larger = (num > num2) ? num : num2;
         System.out.println("Number 1: " + num + " , " + "Number 2: " + num2);
-        System.out.println("Large number is: " + larger);
+        System.out.println("Which number is higher? " + larger);
 
 
 

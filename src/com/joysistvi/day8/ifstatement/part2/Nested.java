@@ -1,4 +1,4 @@
-package com.joysistvi.day7.ifstatement.part2;
+package com.joysistvi.day8.ifstatement.part2;
 
 public class Nested { // pwede mas mahabang nested depende sa requirement
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.joysistvi.day7.ifstatement.part2.SwitchStatement;
+package com.joysistvi.day8.ifstatement.part2.SwitchStatement;
 
 public class SwtichStatement {
     public static void main(String[] args) {

@@ -55,20 +55,6 @@ public class Activity5_Labin {
                         }
 
                     } else if (promoChoice == 2) {
-                        System.out.println("\n ** Go+149 **");
-                        System.out.println("Get 16 GB for all sites + 16GB");
-                        System.out.println("[1] Subscribe");
-                        System.out.println("[2] Exit");
-                        System.out.print("Enter your choice:");
-                        int action = input.nextInt();
-                        if (action == 1) {
-                            System.out.println("\nYou are now subscribed to Go+99. Thank you!");
-                        } else if (action == 2) {
-                            System.out.println("\nExit..");
-                        } else {
-                            System.out.println("Invalid Choice");
-                        }
-                    } else if (promoChoice == 3) {
                         System.out.println("\n ** Go+129 **");
                         System.out.println("Get 12 GB for all sites + 12GB");
                         System.out.println("[1] Subscribe");
@@ -76,12 +62,28 @@ public class Activity5_Labin {
                         System.out.print("Enter your choice:");
                         int action = input.nextInt();
                         if (action == 1) {
-                            System.out.println("\nYou are now subscribed to Go+99. Thank you!");
+                            System.out.println("\nYou are now subscribed to Go+129. Thank you!");
                         } else if (action == 2) {
                             System.out.println("\nExit..");
                         } else {
                             System.out.println("Invalid Choice");
                         }
+                    } else if (promoChoice == 3) {
+                        System.out.println("\n ** Go+149 **");
+                        System.out.println("Get 16 GB for all sites + 16GB");
+                        System.out.println("[1] Subscribe");
+                        System.out.println("[2] Exit");
+                        System.out.print("Enter your choice:");
+                        int action = input.nextInt();
+                        if (action == 1) {
+                            System.out.println("\nYou are now subscribed to Go+149. Thank you!");
+                        } else if (action == 2) {
+                            System.out.println("\nExit..");
+                        } else {
+                            System.out.println("Invalid Choice");
+                        }
+                    } else {
+                        System.out.println("\nInvalid Promo! Try again.");
                     }
 
                 }
@@ -114,7 +116,8 @@ public class Activity5_Labin {
                         } else {
                             System.out.println("Invalid Choice");
                         }
-
+                    } else {
+                        System.out.println("Invalid Choice!");
                     }
 
                 }
@@ -136,6 +139,8 @@ public class Activity5_Labin {
                         } else if (promoChoice3 == 3) {
                             promoName = "GoEXTRA149";
                         }
+                    } else {
+                        System.out.println("Invalid Choice!");
                     }
                     System.out.println("\n** " + promoName + " **");
                     System.out.println("[1] Subscribe");
@@ -170,6 +175,8 @@ public class Activity5_Labin {
                         } else if (promoChoice4 == 3) {
                             promoName = "UNLI 5G 199";
                         }
+                    } else {
+                        System.out.println("Invalid Choice!");
                     }
                     System.out.println("\n** " + promoName + " **");
                     System.out.println("[1] Subscribe");
@@ -202,6 +209,8 @@ public class Activity5_Labin {
                         } else if (promoChoice5 == 3) {
                             promoName = "ALLNET199";
                         }
+                    } else {
+                        System.out.println("Invalid Choice!");
                     }
                     System.out.println("\n** " + promoName + " **");
                     System.out.println("[1] Subscribe");
@@ -218,6 +227,8 @@ public class Activity5_Labin {
                         System.out.println("Invalid Choice!");
                     }
 
+                } else {
+                    System.out.println("\nInvalid Promo Code! Try again.");
                 }
             }
         } else {

@@ -7,6 +7,7 @@ public class ForLoopStatement {
         Scanner scanner = new Scanner(System.in);
         // Flag variable / boolean flag
         boolean isRunning = true;
+
         // transfer it to while loop
         while (isRunning) {//gagsamitin to control the loop para mastop
             System.out.println("*   Load Reg *");

@@ -38,9 +38,3 @@ public class Activity8_Labin {
     }
 }
 
-/*
-(int i=0; i < numbers.length; i++)
-System.out.println("Number " + (i + 1) + ": ");
-System.out.println(number);
-for (String number : numbers)
- */

@@ -3,8 +3,8 @@ package com.joysistvi.day14.string;
 public class Activity10_Labin {
     public static void main(String[] args) {
         String word = "Revenge ";
-
         System.out.println("Word: " + word);
+
         // 1. contains()
         System.out.println("1. It contains even? " + word.contains("even"));
 
@@ -15,7 +15,7 @@ public class Activity10_Labin {
         System.out.println("3. It starts with letter 'R'? " + word.startsWith("R"));
 
         // 4. indexOf()
-        System.out.println("4. What is the index no of 'e'? " + word.indexOf("e"));
+        System.out.println("4. What is the index no. of 'e'? " + word.indexOf("e"));
 
         // 5. trim()
         System.out.println("5. " + word.trim());

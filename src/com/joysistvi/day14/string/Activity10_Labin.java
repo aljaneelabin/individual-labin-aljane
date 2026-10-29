@@ -9,20 +9,19 @@ public class Activity10_Labin {
         System.out.println("1. It contains even? " + word.contains("even"));
 
         // 2. endsWith()
-        System.out.println("2. Ends with G? " + word.endsWith("e"));
+        System.out.println("2. It ends with 'e'? " + word.endsWith("e"));
 
         // 3. startsWith()
-        System.out.println("3. Starts with R? " + word.startsWith("R"));
+        System.out.println("3. It starts with letter 'R'? " + word.startsWith("R"));
 
         // 4. indexOf()
-        System.out.println("4. " + word.indexOf("e"));
-        System.out.println("4. " + word.indexOf("e", 3));
+        System.out.println("4. What is the index no of 'e'? " + word.indexOf("e"));
 
         // 5. trim()
         System.out.println("5. " + word.trim());
 
         // 6. replace()
-        System.out.print("6. What word forms when ‘g’ is added? ");
+        System.out.print("6. What word forms when ‘u’ is replaced? ");
         System.out.println(word.replace('g','u'));
 
         // 7. toCharArray()

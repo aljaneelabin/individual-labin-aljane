@@ -174,8 +174,8 @@ public class Activity11_Labin {
         System.out.println("\tCalculate the height of a ramp using: ");
         double angle = 30;
         double rampLength = 10;
-        System.out.println("Ramp angle: " + angle + " degrees");
-        System.out.println("Ramp length: " + rampLength + " meters");
+        System.out.println("\tRamp angle: " + angle + " degrees");
+        System.out.println("\tRamp length: " + rampLength + " meters");
         System.out.println("\tAngle: " + angle + " degrees");
         System.out.println("\tLength: " + rampLength + " meters");
         System.out.println("\tDistance: " + rampLength + " meters");

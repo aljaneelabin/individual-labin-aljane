@@ -2,7 +2,7 @@ package com.joysistvi.day8.ifstatement.part2.Activity;
 
 import java.util.Scanner;
 
-public class Trial2 {
+public class Trial2LoadProgramCorrected {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String dial = "*143#";
@@ -113,7 +113,7 @@ public class Trial2 {
                     while (true) {
                         System.out.println("\nYou choose Go Promos");
                         System.out.println("[1] Go55");
-                        System.out.println("[2] Go+Go99");
+                        System.out.println("[2] Go99");
                         System.out.println("[3] Go120");
                         System.out.println("[0] Back to Main Menu");
                         System.out.print("Please select promo: ");

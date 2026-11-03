@@ -1,4 +1,4 @@
-package com.joysistvi.day14.string;
+package com.joysistvi.day14.string.String;
 
 import java.util.Scanner;
 

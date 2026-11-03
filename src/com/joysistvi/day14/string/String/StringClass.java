@@ -1,6 +1,5 @@
-package com.joysistvi.day14.string;
+package com.joysistvi.day14.string.String;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class StringClass {

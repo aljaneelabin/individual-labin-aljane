@@ -1,4 +1,4 @@
-package com.joysistvi.day16.miniactivity;
+package com.joysistvi.day16.oopintro.miniactivity;
 
 public class Cats {
 

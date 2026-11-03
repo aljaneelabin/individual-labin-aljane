@@ -1,4 +1,4 @@
-package com.joysistvi.day16.oopintro;
+package com.joysistvi.day16.oopintro.OOP_Intro;
 
 public class Main {
 

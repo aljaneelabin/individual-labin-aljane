@@ -1,4 +1,4 @@
-package com.joysistvi.day14.string;
+package com.joysistvi.day14.string.String;
 
 public class VowelsActivity {
     public static void main(String[] args) {

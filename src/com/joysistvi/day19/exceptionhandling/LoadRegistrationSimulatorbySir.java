@@ -1,8 +1,9 @@
-package com.joysistvi.day19.exception;
+package com.joysistvi.day19.exceptionhandling;
 
 import java.util.Scanner;
 
-public class Activity12_Labin {
+public class LoadRegistrationSimulatorbySir {
+
 
     static Scanner scanner = new Scanner(System.in);
 
@@ -292,3 +293,4 @@ public class Activity12_Labin {
         }
     }
 }
+

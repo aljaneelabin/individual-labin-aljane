@@ -1,4 +1,4 @@
-package com.joysistvi.day19.exception;
+package com.joysistvi.day19.exceptionhandling;
 
 import java.util.Scanner;
 

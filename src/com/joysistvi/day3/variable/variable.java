@@ -1,4 +1,4 @@
-package com.joysistvi.day3;
+package com.joysistvi.day3.variable;
 
 public class variable {
 

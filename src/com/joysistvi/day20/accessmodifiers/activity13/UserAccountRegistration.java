@@ -56,6 +56,13 @@ public class UserAccountRegistration {
         if (email == null || email.isEmpty()) {
             System.out.println("Email cannot be empty.");
         }
+
+        // (^) start of the string
+        // (+) one or more occurrences
+        // (\\.) Literal dot (.)
+        // {2,} At least 2 occurrences - > com
+        // ($) End of the string
+
         else if (!email.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$")) {
             System.out.println("Invalid email format.");
         }
@@ -70,6 +77,13 @@ public class UserAccountRegistration {
 
         System.out.println("Checking password...");
 
+        // regex - Regular Expression
+        // Character Class
+        // Note: .* Dahil gusto nating mahanap ang special character kahit saan nakalagay sa password.
+        // w/ (^) Maliban sa mga nasa loob ng brackets
+        // w/o (^) Pumili ng kahit isa sa loob ng brackets
+
+
         if (password == null || password.length() < 8) {
             System.out.println("Password must be at least 8 characters.");
         }
@@ -82,7 +96,7 @@ public class UserAccountRegistration {
         else if (!password.matches(".*[0-9].*")) {
             System.out.println("Password must contain a number.");
         }
-        else if (!password.matches(".*[^A-Za-z0-9].*")) {
+        else if (!password.matches(".*[^A-Za-z0-9].*")) {  // *not a letter or number* to compare input string ; determine if it follows to required format
             System.out.println("Password must contain a special character.");
         }
         else if (password.contains(" ")) {
@@ -90,7 +104,7 @@ public class UserAccountRegistration {
         }
         else {
             this.password = password;
-            System.out.println("Password successfully saved!");
+            System.out.println("\nPassword successfully saved!");
         }
     }
 

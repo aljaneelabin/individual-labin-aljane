@@ -2,7 +2,7 @@ package com.joysistvi.day21.constructor.activity14;
 
 import java.util.Scanner;
 
-public class Main {
+public class Activity14_Labin {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

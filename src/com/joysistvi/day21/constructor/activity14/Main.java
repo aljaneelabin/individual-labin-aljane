@@ -44,7 +44,7 @@ public class Main {
         }  while (emailError != null);
 
 
-        // Passwprd Checking
+        // Password Checking
         String password;
         String passwordError;
 

@@ -15,11 +15,11 @@ public class UserAccount {
     public UserAccount (String firstName, String middleName, String lastName, String address, String email, String password) {
 
         this.firstName = firstName;
-       this.middleName = middleName;
-       this.lastName = lastName;
-       this.address = address;
-       this.email = email;
-       this.password = password;
+        this.middleName = middleName;
+        this.lastName = lastName;
+        this.address = address;
+        this.email = email;
+        this.password = password;
     }
 
     public static String getEmailError(String email) {
@@ -58,7 +58,7 @@ public class UserAccount {
 
 
     @Override
-    public String toString() {
+    public String toString() { //buit-in method
         return "Full Name: " + firstName + " " + middleName + " " + lastName + "\n" +
                 "Email: " + email + "\n" +
                 "Address: " + address + "\n" ;

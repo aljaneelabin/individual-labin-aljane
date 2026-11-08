@@ -2,8 +2,8 @@ package com.joysistvi.day22.inheretance.activity15;
 
 public class Highlighter extends Pen {
 
-    double tipSize;
-    boolean useForHighlight = true;
+    private double tipSize;
+    private boolean useForHighlight = true;
 
     public Highlighter (String brand, String typeOfPen, double weightInGrams, String inkColor, double tipSize, boolean useForHighlight) {
         super(brand, typeOfPen, weightInGrams, inkColor);
@@ -37,6 +37,6 @@ public class Highlighter extends Pen {
         return "Pen Type: Highlighter\n"
                 + super.toString() +
                 "Tip Size: " + tipSize + " mm" + "\n" +
-                "Does it come in different colors? " + (useForHighlight ? "Yes" : "No");
+                "Does it come in different colors? " + (useForHighlight ? "Yes." : "No.");
     }
 }

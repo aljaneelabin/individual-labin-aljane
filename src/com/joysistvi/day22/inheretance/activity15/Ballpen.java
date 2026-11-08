@@ -2,7 +2,7 @@ package com.joysistvi.day22.inheretance.activity15;
 
 public class Ballpen extends Pen {
 
-    double ballPointSize;
+    private double ballPointSize;
 
     public Ballpen(String brand, String typeOfPen, double weightInGrams, String inkColor, double ballPointSize) {
         super(brand, typeOfPen, weightInGrams, inkColor);
@@ -20,7 +20,8 @@ public class Ballpen extends Pen {
     @Override
     public String toString() {
         return  "Pen Type: Regular Pen \n" +
-                "Point Size: " + getBallPointSize() + " mm" + "\n" +
-                super.toString() ;
+                super.toString() +
+                "Point Size: " + getBallPointSize() + " mm" + "\n" ;
+
     }
 }

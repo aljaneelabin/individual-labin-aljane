@@ -2,7 +2,7 @@ package com.joysistvi.day22.inheretance.activity15;
 
 public class Gelpen extends Ballpen {
 
-    String series;
+    private String series;
     private boolean waterproof;
 
 
@@ -36,8 +36,7 @@ public class Gelpen extends Ballpen {
     @Override
     public String toString() {
         return "Pen Type: Gelpen \n" +
-                 super.toString().substring(super.toString().indexOf("\n") + 1) +
-                "Point Size: " + getBallPointSize() + " mm" + "\n" +
+                super.toString().substring(super.toString().indexOf("\n") + 1) +
                 "Series: " + getSeries() + "\n" +
                 "Is this water proof? " + (waterproof ? "Yes." : "No.");
     }

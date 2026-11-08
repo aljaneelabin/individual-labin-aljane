@@ -1,4 +1,4 @@
-package com.joysistvi.day22.inheretance.activity;
+package com.joysistvi.day22.inheretance.activity15;
 
 public class Pen {
 

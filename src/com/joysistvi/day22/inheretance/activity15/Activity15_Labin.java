@@ -1,6 +1,4 @@
-package com.joysistvi.day22.inheretance.activity;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package com.joysistvi.day22.inheretance.activity15;
 
 public class Activity15_Labin {
 

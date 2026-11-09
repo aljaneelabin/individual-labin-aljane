@@ -1,4 +1,4 @@
-package com.joysistvi.day4.operator;
+package com.joysistvi.day4.operator.codealong;
 
 public class UnaryOperator {
     public static void main(String[] args) {

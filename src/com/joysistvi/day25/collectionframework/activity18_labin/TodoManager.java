@@ -1,4 +1,4 @@
-package com.joysistvi.day25.collectionframework.activity18;
+package com.joysistvi.day25.collectionframework.activity18_labin;
 
 //#1
 import java.util.ArrayList;

@@ -4,7 +4,7 @@ package com.joysistvi.day25.collectionframework.activity18_labin;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public interface TodoManager {
+public class TodoManager {
 
     //#2
     static Scanner scanner = new Scanner(System.in);
